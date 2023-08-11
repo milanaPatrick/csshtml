@@ -1,20 +1,39 @@
-* {
+
+header, nav.head{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    overflow: hidden;
+    background-color: #f7d98f;
+    box-shadow: 1px 1px 20px #2e310e;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+
+header, footer{
+    max-width: 1350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fae6ab;
+    font-weight: 200;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px #2e310e;
+
+}
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav, {
+nav {
     text-decoration: none;
-    padding: 0;
-    margin: 0;
-
 }
 
 body {
-    background-color: #f4e0b9
-    line-height: 1.6;
+    background-color: #f8dc80;
+    line-height: 1.9;
 }
 
 a {
@@ -29,18 +48,14 @@ p {
     font-family: 'Roboto Slab', serif;
 }
 
-header, main, footer, article{
-    max-width: 1200px;
+main, article{
+    max-width: 1350px;
     margin: 20px auto;
     padding: 20px;
     background-color: #FFECAF;
-    box-shadow: 0 0 10px #91c8e4 (0, 0, 0, 0,.1);
-
-}
-
-header {
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px #2e310e;
+    
 }
 
 nav ul{
@@ -55,22 +70,20 @@ nav ul li{
 
 .gestaac-section {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin: 20px;
     overflow: hidden;
 }
 
 .gestaac {
     flex: 1;
-    border: 1px solid black;
-    box-shadow: 0 0 10px #FBA1B7 (0, 0, 0, 0,0.5);
-    border-radius: 5px;
+    text-align: center;
+    
+    border-radius: 3px;
     object-fit: cover;
-}
-
-.card-content{
-    padding: 20px;
-    margin:20px;
+    background-color: #fbeda1;
+    box-shadow: 1px 1px 20px #2e310e;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .gestaac-link{
@@ -86,9 +99,17 @@ nav ul li{
     font-family: 'Roboto Slab', serif;
 }
 
-nav .gestaac-aside{
+.gestaac-aside, nav{
     list-style: none;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
+
+
+
+
+
+
+
+
+
 
