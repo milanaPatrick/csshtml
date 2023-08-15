@@ -5,9 +5,9 @@ header, nav.head{
     overflow: hidden;
     background-color: #f7d98f;
     box-shadow: 1px 1px 20px #2e310e;
-    border: 2px solid rgb(255, 255, 255);
-    
+    border: 2px solid rgb(255, 255, 255);   
 }
+
 
 header, footer{
     max-width: 1350px;
@@ -17,14 +17,13 @@ header, footer{
     font-weight: 200;
     border: 2px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 20px #2e310e;
-
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 nav {
@@ -55,7 +54,6 @@ main, article{
     background-color: #FFECAF;
     border: 2px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 20px #2e310e;
-    
 }
 
 nav ul{
