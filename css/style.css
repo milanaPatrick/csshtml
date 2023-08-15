@@ -23,7 +23,7 @@ header, footer{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Roboto Slab', serif;
 }
 
 nav {
@@ -43,9 +43,7 @@ a:hover {
     color: #468b97;
 }
 
-p {
-    font-family: 'Roboto Slab', serif;
-}
+
 
 main, article{
     max-width: 1350px;
@@ -86,21 +84,26 @@ nav ul li{
 
 .gestaac-link{
     display: inline-block;
-    background: blue;
+    background: rgb(46, 46, 224);
     padding: 10px 20px;
     color: white;
     border-radius: 3px;
 }
 
-.gestaac-aside{
+.gestaac-aside {
     padding: 15px 20px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif; 
 }
 
-.gestaac-aside, nav{
+.gestaac-aside, nav, .aside-link{
     list-style: none;
-    text-decoration: none; 
+    text-decoration: none;
+    
 }
+
+
+
+
 
 
 
